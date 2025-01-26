@@ -1,0 +1,28 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual Environment
+.venv/
+
+# Django migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# Media and static files
+media/
+staticfiles/
+static/
+
+# Environment variables
+.env
+
+# Database
+*.sqlite3
+
+# IDE and editor files
+.vscode/
+
+# Pytest cache
+.pytest_cache/
